@@ -1,0 +1,126 @@
+div.bar_retract {
+    /* 收起展开微博按钮 */
+    
+    border: none;
+    font-size: 14px;
+}
+div[feedtype="ad"] {
+    /* 时间线推广 */
+    
+    display: none;
+}
+i.icon_redpack,
+i.icon_club,
+i.icon_approve_co,
+i.icon_approve,
+em.W_icon {
+    /* 昵称后图标: v, 红包, 会员 */
+    
+    display: none !important;
+}
+a[action-type="ignore_list"] {
+    /* 更多昵称后图标 */
+    
+    display: none !important;
+}
+iframe {
+    /* iframe == 广告？ */
+    
+    display: none !important;
+}
+iframe[name^="article"] {
+    /* 内嵌文章不是广告 */
+    
+    display: inline !important;
+}
+div#home_new_feed_tip {
+    padding-top: 15px;
+}
+div#home_new_feed_tip,
+div#home_new_feed_tip > a {
+    /* 新微博提醒 */
+    
+    background: #ffc09f !important;
+    color: #555 !important;
+}
+div.WB_expand_media.S_bg1 {
+    /* 展开微博图片 */
+    
+    background-color: #fefefe !important;
+    border: none;
+}
+div.WB_feed_together,
+div.WB_feed_together div,
+div.WB_feed_together span {
+    /* 其他对此微博的转发 */
+    
+    background-color: #fefefe !important;
+}
+div.WB_expand.S_bg1 {
+    /* 被转发微博的背景 */
+    
+    background-color: #fefefe !important;
+    border-radius: 5px;
+}
+i.S_bg1_br {
+    /* 被转发微博框上的上三角形 */
+    
+    display: none;
+}
+.M_sc_tips {
+    /* 时间线顶部广告 */
+    
+    display: none !important;
+}
+span.placeholder {
+    /* 搜索框预设文字 */
+    
+    display: none !important;
+}
+div#Pl_Core_ThirdHtmlData__4 {
+    /* 隐藏完善个人资料 */
+    
+    display: none !important;
+}
+div.PCD_person_info,
+div.PCD_mydata {
+    /* 微博达人， 访问统计*/
+    
+    display: none !important;
+}
+div#Pl_Core_P7MultiPicPlay__7 {
+    /* 个人页面侧栏广告 */
+    
+    display: none !important;
+}
+img.W_face_radius {
+    /* 头像 */
+    
+    border-radius: 15% !important;
+}
+a[data-action='download_forward'] {
+    /* 微盘下载并转发*/
+    
+    display: none;
+}
+div.webim_news {
+    /* 右下角快讯 */
+    
+    display: none;
+}
+div[ad-data] {
+    /* 广告 */
+    
+    display: none;
+}
+div.WB_starcover,
+div[node-type="widget_followBtnBox"] {
+    /* VIP封面, VIP关注 */
+    
+    display: none;
+}
+div.media_box > div.WB_feed_spec.WB_feed_spec_a {
+    /* 话题框 */
+    
+    display: none;
+}
